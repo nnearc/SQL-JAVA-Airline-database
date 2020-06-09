@@ -1,0 +1,1 @@
+exec sp_MSforeachtable @command1="print '?'", @command2="ALTER TABLE ? CHECK CONSTRAINT all"
